@@ -62,7 +62,7 @@ export default class TicketCalculator {
     //Monthly ticket
     const monthlyTicketPrice =
       this.recurrentTripOps.getPriceForMonthlyTicket(29);
-    priceList.push(`T-Usual. Total ${monthlyTicketPrice.toFixed(2)} €/mes.`);
+    priceList.push(`Amb T-Usual, ${monthlyTicketPrice.toFixed(2)} €/mes.`);
 
     return priceList;
   }
